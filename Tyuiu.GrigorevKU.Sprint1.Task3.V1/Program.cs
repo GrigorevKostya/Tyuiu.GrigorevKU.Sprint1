@@ -27,8 +27,8 @@ namespace Tyuiu.GrigorevKU.Sprint1.Task3.V1
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double r = 5;
-            double h = 10;
+            double r = 1;
+            double h = 2;
             Console.WriteLine("Радиус цилиндра равен " + r);
             Console.WriteLine("Высота цилиндра равна " + h);
 
