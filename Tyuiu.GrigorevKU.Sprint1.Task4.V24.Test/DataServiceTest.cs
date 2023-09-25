@@ -13,7 +13,7 @@ namespace Tyuiu.GrigorevKU.Sprint1.Task4.V24.Test
             double x = 1;
             double y = 1;
             var res = ds.Calculate(x, y);
-            double wait = 0 / (1 + Math.Sqrt(2));
+            double wait = Math.Round(0 / (1 + Math.Sqrt(2)), 3);
             Assert.AreEqual(res, wait);
         }
     }
