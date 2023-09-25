@@ -10,7 +10,8 @@ namespace Tyuiu.GrigorevKU.Sprint1.Task4.V24.Lib
     {
         public double Calculate(double x, double y)
         {
-            return ((Math.Log(x * y)) / (x + Math.Sqrt(2 * Math.Pow(y, 2))));
+            double res = ((Math.Log(x * y)) / (x + Math.Sqrt(2 * Math.Pow(y, 2))));
+            return Math.Round(res, 3);
         }
     }
 }
